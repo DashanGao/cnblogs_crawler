@@ -1,79 +1,79 @@
-Title: 解决通过Intent调用系统拍照程序，返回图片太小的问题 
-Abstract: 按下拍照键后，会返回到你的activity，所以你的activity要在onActivityResult方法里加一个处理， 但是这样你会发现这个bitmap尺寸太小了。明显是被压缩过了，要像返回未被压缩的照片，那么你要给调用系统拍照程序intent加上参数，指定图片输出的位置。 这样就是大图片返回了 ...
-Author: ganchuanpu 	Time: 2017-04-26 22:03 	Comment: 0 	View: 2 
+Title: 用Visual Studio2017写静态库 
+Abstract: 造轮子是一件有趣的事情，VS是一个强大的工具，能胜任超大规模的工程，但是讲真，对不那么大的项目配置起来不是那么友好（网上的其他教程也一点都不友好Orz）。这里就展示一下构建一个简单的静态库的正确姿势。（顺便教一点道理 创建解决方案——许多人搞不清工程/项目Project和解决方案Solution的区 ...
+Author: jily16 	Time: 2017-04-26 23:11 	Comment: 0 	View: 4 
 
-Title: Ionic2/angularJs2中的静态类  PhotoLibrary 调用不上 
-Abstract: photoLibrary调用报错：No provider for PhotoLibrary； 在调用相册文件时有用到photolibrary，总有些莫名的报错，3月份的时候这个坑让我不知所措，现在写下来方便查看（也不知道Ionic2现在是否有变化），入坑过程： 按照官网示例： 1.添加插件： cmd ...
-Author: babuge 	Time: 2017-04-26 21:21 	Comment: 0 	View: 1 
+Title: HTTP长连接、短连接使用及测试 
+Abstract: 概念 HTTP短连接（非持久连接）是指，客户端和服务端进行一次HTTP请求/响应之后，就关闭连接。所以，下一次的HTTP请求/响应操作就需要重新建立连接。 HTTP长连接（持久连接）是指，客户端和服务端建立一次连接之后，可以在这条连接上进行多次请求/响应操作。持久连接可以设置过期时间，也可以不设置。 ...
+Author: 漫夭 	Time: 2017-04-26 23:10 	Comment: 0 	View: 3 
 
-Title: android.invalidate() 
-Abstract: Invalidate() 使控件的整个图面无效并导致重绘控件（继承自 Control。） Invalidate(Region) 使控件的指定区域无效（将其添加到控件的更新区域，下次绘制操作时将重新绘制更新区域），并向控件发送绘制消息。 （继承自 Control。） Invalidate(Boolea ...
-Author: ganchuanpu 	Time: 2017-04-26 19:51 	Comment: 0 	View: 3 
+Title: Linux-进程描述（5）之进程环境 
+Abstract: main函数和启动例程 当内核使用一个exec函数执行C程序时，在调用main函数之前先调用一个特殊的启动例程，可执行程序将此例程指定为程序的起始地址。启动例程从内核获取命令行参数和环境变量，然后为调用main函数做好准备。我们常用gcc main.c -o main命令编译一个程序，其实也可以分三 ...
+Author: 滴巴戈 	Time: 2017-04-26 21:47 	Comment: 0 	View: 34 
 
-Title: Socket for android 简单实例 
-Abstract: 最近在实现socket通信，所以写个demo来简单实现下。我用了一种是原始的socket实现，另一种是MINA框架来实现的。 下载demo：http://download.csdn.net/detail/qq_29774291/9826648 一.先看第一种方法 a)、创建Socket对象，指明需要 ...
-Author: 王丰蛋哥 	Time: 2017-04-26 17:31 	Comment: 0 	View: 14 
+Title: websoket使用Protocol Buffers3.0传输 
+Abstract: Protocol Buffers是Google推出的一个数据交换格式，相对于xml它的体积更小，更快，因为它是二进制传输的。3.0相对于2.0变动比较大。这些变动可以去看官方说明。 在前端使用ProtoBuf.js解析.proto文件，先需要再界面上引入protobuf.js。 定义一个.proto ...
+Author: stoneniqiu 	Time: 2017-04-26 20:26 	Comment: 1 	View: 116 
+
+Title: SQL Server 中统计信息直方图中对于没有覆盖到谓词预估以及预估策略的变化（SQL2012--&gt;SQL2014--&gt;SQL2016） 
+Abstract: 本文出处：http://www.cnblogs.com/wy123/p/6770258.html 统计信息写过几篇了相关的文章了，感觉还是不过瘾，关于统计信息的问题，最近又踩坑了，该问题虽然不算很常见，但也比较有意思。相对SQL Server 2012，发现在新的SQL Server版本（2014, ...
+Author: MSSQL123 	Time: 2017-04-26 20:21 	Comment: 0 	View: 56 
+
+Title: Unity UI 基础【译】 
+Abstract: https://unity3d.com/cn/learn/tutorials/topics/best practices/fundamentals unity ui?playlist=30089 理解组成Unity UI系统的各个部分很重要。一些基础的类和组件一起组成了这个系统。这一章节介绍一些的这 ...
+Author: chiguozi 	Time: 2017-04-26 20:09 	Comment: 1 	View: 45 
+
+Title: 仿：Android - 微信 - 朋友圈 - 小视频播放，多 4 句废话算我输 
+Abstract: 作者：林冠宏 / 指尖下的幽灵 掘金：https://juejin.im/user/587f0dfe128fe100570ce2d8 博客：http://www.cnblogs.com/linguanh/ GitHub ： https://github.com/af913337456/ 为了您的直观 ...
+Author: 指尖下的幽灵 	Time: 2017-04-26 19:50 	Comment: 0 	View: 94 
+
+Title: iOS&#183;官方文档译文框架源码注解 
+Abstract: 📌 导语 我们追求技术的提升，关注技术的发展历程；作为从事技术工作的伐码猿，有个想法（ ），这个想法工程量之大（ ），从事技术多年也算是对所花费时间的一个总结（ ）。 这篇文章的内容仅是【iOS 开源理解整理的一个简明介绍】， 重点 重点 重点 （ ）， 我的「想法和行动」都在文章末尾 前些日子， ...
+Author: 白开水ln 	Time: 2017-04-26 19:33 	Comment: 1 	View: 38 
+
+Title: C#网络程序设计(2)Socket基础编程 
+Abstract: 本节介绍如何使用基础Socket实现TCP通信。 (1)Socket详细介绍: Socket的英文原义是“孔”或“插座”。通常称作&quot;套接字&quot;，用于描述IP地址和端口，是一个通信链的句柄。在Internet上的主机一般运行了多个服务软件，同时提供几种服务。每种服务都打开一个Socket，并绑定到一个端 ...
+Author: MenAngel 	Time: 2017-04-26 18:37 	Comment: 0 	View: 129 
+
+Title: Android高效内存：让图片占用尽可能少的内存 
+Abstract: Android高效内存：让图片占用尽可能少的内存。图片尽可能小，为什么使用.9的原因；加载图片时控制图片的大小不要超过你的控件，考虑适当降低图片色彩质量，用完及时释放Bitmap资源。 ...
+Author: popfisher 	Time: 2017-04-26 18:22 	Comment: 0 	View: 63 
+
+Title: Android -- 从源码解析Handle+Looper+MessageQueue机制 
+Abstract: 1，今天和大家一起从底层看看Handle的工作机制是什么样的，那么在引入之前我们先来了解Handle是用来干什么的 上面的总结成一句话来说就是，由于主线程不能做耗时操作而子线程不能更新UI，解决线程间通信问题。 2，这里防止有些同学压根没有了解过Handle，所以这里还是带着大家简单的从使用入手，先 ...
+Author: 阿呆哥哥 	Time: 2017-04-26 18:07 	Comment: 0 	View: 45 
+
+Title: 记一次队列积压问题的分析、解决 
+Abstract: 现象： 同事负责的项目转到我的头上，整理服务过程中发现了队列的积压问题。 为了搞清楚积压的严重程度， 对队列任务数每分钟进行一次采样，生成一个走势图， 队列积压情况一目了然，非常严重。 分析： 听了同事对系统的介绍，猜测是mongo性能影响了处理效率，于是针对mongo进行分析 1.&#160;使用mongo ...
+Author: sealake 	Time: 2017-04-26 17:57 	Comment: 0 	View: 108 
+
+Title: Linux Shell——bash shell 脚本简介 
+Abstract: bash shell 脚本简介 shell 运行环境 如果你运行的是 Unix 或 Linux 系统，例如 Ubuntu，Red Hat，SUSE Linux，还有macOS，都是内置了 bash shell 的，所以你不需要额外配置所谓的开发环境。 我的 shell 环境是 macOS Sierr ...
+Author: Felix_ICanFixIt 	Time: 2017-04-26 17:11 	Comment: 0 	View: 138 
 
 Title: Android NDK开发之从环境搭建到Demo级十步流 
 Abstract: 说到NDK，相信大家都不陌生，它是Google为便于Android开发提供的一种原生开发集：Native Development Kit，而且也是一个包含API、构建工具、交叉编译、调试器、文档示例等一系列的工具集，可以帮助开发者快速开发C（或C++）的动态库。 ...
-Author: 管满满 	Time: 2017-04-26 16:40 	Comment: 0 	View: 120 
+Author: 管满满 	Time: 2017-04-26 16:40 	Comment: 0 	View: 123 
 
-Title: 数据库升级（添加字段） 
-Abstract: 本地做了一个浏览记录的缓存，在之前的版本中已经创建了一个对应的表，在新版本中对浏览记录进行了修改，所以得往已经存在的表中添加新的字段。 最开始以为只要在创建表的地方添加上新的字段便大功告成了。 运行之后，发现添加的字段并没有生效，后来查看日志，发现新加的字段在插入的时候居然在表中找不到。 后来想了一 ...
-Author: 放羊的王二小 	Time: 2017-04-26 15:25 	Comment: 0 	View: 12 
+Title: tcptump的使用------使用JAVA与tcpdump从网络获取原始数据 
+Abstract: 从这里开始，就开始接触使用分布式系统处理大数据了。在处理大数据之前，需要有一个场景，否则技术工具无法嵌入现实当中，价值就会降低。我碰到的场景应该还是比较具有普遍性，因此大家可以在我的场景里先玩一遍，熟悉一下流程和方法，然后加以改造，加载到自己的场景和环境中。 场景：在一个大型公司内部，终端和各个业务 ...
+Author: alpha118 	Time: 2017-04-26 16:02 	Comment: 1 	View: 135 
 
-Title: 【方法总结】创建、读取、删除文件相关操作 
-Abstract: 总结一波文件操作相关的共通方法（拿来就用） 需要申请的权限： 1.获取文件夹下的所有文件名 2.在SD卡上创建文件 3.在SD卡上创建文件夹 4.读取SD卡中文本文件 5.删除单个文件 filePath 被删除文件的文件名 return 文件删除成功返回true，否则返回false。 6.删除文件夹 ...
-Author: tnnowu 	Time: 2017-04-26 11:58 	Comment: 0 	View: 22 
+Title: Spring事务隔离级别与传播机制详解，spring+mybatis+atomikos实现分布式事务管理 
+Abstract: 原创说明：本文为本人原创作品，绝非他处转载，转账请注明出处 1.事务的定义：事务是指多个操作单元组成的合集，多个单元操作是整体不可分割的，要么都操作不成功，要么都成功。其必须遵循四个原则（ACID）。 2.事务的类型 数据库分为本地事务跟全局事务 本地事务：普通事务，独立一个数据库，能保证在该数据库 ...
+Author: 半山闲人 	Time: 2017-04-26 15:05 	Comment: 1 	View: 260 
 
-Title: 微信小程序，个人开发者创业新平台 
-Abstract: 在移动互联网世界，微信无小事，微信的事，是整个创业圈的事。经过一年多的酝酿，2017年1月9日，微信小程序发布了。发布伊始，无疑是对整个业界注入一剂兴奋剂，整个微信的生态圈的企业和个人开发者，都跃跃欲试，仿佛看到新的一波创业红利的到来。 在过去的4个多月里，小程序最开始的谨小慎微，到3月开始不断提升 ...
-Author: xjb 	Time: 2017-04-26 01:01 	Comment: 0 	View: 15 
+Title: HDFS：edit log &amp; fsimage 
+Abstract: 在NameNode的${dfs.namenode.name.dir}/current目录下，有这样几个文件： 在数据库系统中，log是用于记录写操作的日志的，并使用该Log进行备份、恢复数据等工作。有关写的操作的记录的，目前见过了两种：关系型数据库的log，HBase的WALs等等都是这样的写操作的 ...
+Author: 救火队长 	Time: 2017-04-26 14:58 	Comment: 0 	View: 71 
 
-Title: 读《重构手册》-重构之姊妹篇有感 
-Abstract: 4月23日读书日，全称“世界图书与版权日”，在广州天河图书馆开了一张借书卡，借了3本书回来看，其中一本就是重构手册-《重构》之姊妹篇。为什么借了这本呢，是因为我想了解一些想象中的重构和大家认同的重构有什么不同，下面我将逐一细说这个异同。 一、原来重构是小步前行，逐一重构 我以前认为重构是某个项目的大 ...
-Author: 传说之美 	Time: 2017-04-25 23:37 	Comment: 0 	View: 303 
+Title: 机器学习：以二元决策树为基学习器实现随机森林算法的回归分析 
+Abstract: 声明：本文是站在回归分析角度讲的，分类的理解可能跟这有点不一样。 1.前言 随机森林也是集成方法的一种，是对Bagging算法的改进。 随机森林主要有两步组成： 1）有放回的随机抽取样本数据，形成新的样本集。这部分和Bagging算法一样，但是有两点需要注意： a）新的样本集的大小和原始样本集的大小 ...
+Author: lc19861217 	Time: 2017-04-26 14:51 	Comment: 0 	View: 102 
 
-Title: [UWP] 自定义一个ItemsPanel 
-Abstract: 在做游民星空.X的搜索页面的时候，需要展示搜索热点词，返回的是一个string数组的形式，然后以一种错落的方式显示，每一个Item的大小都和热点词长度一致，然后一行放不下之后就换行，描述的不太直观，直接看图好了。 当我有这个布局需求的时候我首先就想到了看过的一篇ms-uap的博客-通过Measure ...
-Author: arcsinW 	Time: 2017-04-25 22:54 	Comment: 0 	View: 15 
+Title: WEB认证模式：Basic &amp; Digest 
+Abstract: WWW-Authenticate：服务端发送的认证头部 qop：质量保证，在摘要质询中用来告知客户端服务端支持的认证算法列表；在响应中其值可为auth或auth-int，auth-int包含对实体主体做完整性校验，qop未定义则默认为auth nonce：服务端产生的一次性随机数，用于服务端对客户端... ...
+Author: 熊猫猛男 	Time: 2017-04-26 14:48 	Comment: 1 	View: 147 
 
-Title: Andriod中自定义Dialog样式的Activity点击空白处隐藏软件盘（Dialog不消失） 
-Abstract: 一、需求触发场景： 项目中需要出发带有EditText的Dialog显示，要求在编辑完EditText时，点击Dilog的空白处隐藏软键盘。但是Dialog不会消失。示例如下： 二、实现方法： 发布需求时，我个人曾想过直接通过new的方式直接创建Dialog，经过多次尝试，无法实现要求，所以采用将A ...
-Author: 潘侯爷 	Time: 2017-04-25 22:52 	Comment: 0 	View: 58 
-
-Title: iOS 相册和网络图片的存取 
-Abstract: iOS 相册和网络图片的存取 保存 UIImage 到相册 UIKit UIKit 中一个古老的方法，Objective C 的形式 保存完成后，会调用 completionTarget 的 completionSelector。如果 completionTarget 不为空，completionT ...
-Author: Silence_cnblogs 	Time: 2017-04-25 20:03 	Comment: 0 	View: 242 
-
-Title: Android 正则表达式验证手机号、姓名（包含少数民族）、身份证号 
-Abstract: Android 正则表达式验证手机号、姓名（包含少数民族）、身份证号 ...
-Author: CurtisWgh 	Time: 2017-04-25 17:38 	Comment: 0 	View: 45 
-
-Title: android 完全解析模拟遥控器按键 
-Abstract: public class VirturlKeyPadCtr {	private static Instrumentation mInstrumentation; public static void RC_ConttrollerAction(final int keyValue) { /** * W ...
-Author: 夏操 	Time: 2017-04-25 16:07 	Comment: 0 	View: 22 
-
-Title: 从源码角度入手实现RecyclerView的Item点击事件 
-Abstract: 转载请注明出处：http://www.cnblogs.com/cnwutianhao/p/6758373.html RecyclerView 作为 ListView 和 GridView 的替代产物，相信在Android界已广为流传。 RecyclerView 本是不会有类似 ListView 的那 ...
-Author: tnnowu 	Time: 2017-04-25 01:19 	Comment: 0 	View: 127 
-
-Title: 用函数指针变量做函数的参数 
-Abstract: 有些时候我们无法及时确定函数的处理逻辑，程序需要动态的改变，这是我们可以通过定义函数指针来实现 ...
-Author: 海格力斯 	Time: 2017-04-24 21:41 	Comment: 0 	View: 28 
-
-Title: 界面底部Tab实现 
-Abstract: 现在基本上大部分的手机APP都要实现底部Tab,底部实现Tab的实现方式有很多种，那么有没有好的实现方式呢？ 今天我将使用一个开源插件来实现底部Tab 参考自zhangli_的博客：http://blog.csdn.net/zhangli_/article/details/52604699 效果图（ ...
-Author: 汕大-吴广林 	Time: 2017-04-24 21:05 	Comment: 0 	View: 70 
-
-Title: React-Native 之 redux 与 react-redux 
-Abstract: 前言 本文 ，可以酌情观看。 文中内容因各人理解不同，可能会有所偏差，欢迎朋友们联系我讨论。 文中所有内容仅供学习交流之用，不可用于商业用途，如因此引起的相关法律法规责任，与我无关，如文中内容对您造成不便，烦请联系 277511806@qq.com 处理，谢谢。 转载麻烦注明出处，谢谢。 本篇资源： ...
-Author: 雨泽Forest 	Time: 2017-04-24 16:41 	Comment: 0 	View: 164 
-
-Title: Install Battery Historian 
-Abstract: 1. Recommended extra packages for Trusty 14.04 2. Download Docker Go to&#160;https://apt.dockerproject.org/repo/pool/main/d/docker-engine/&#160;and download the ...
-Author: youchihwang 	Time: 2017-04-24 15:55 	Comment: 0 	View: 17 
-
-Title: Android 开源库和项目 3 
-Abstract: Android 开源库和项目 Android 开源库和项目 2 1、Matisse Android 图片选择器 -- 知乎开源 github 地址：https://github.com/zhihu/Matisse 博客：https://zhuanlan.zhihu.com/p/26420284 ...
-Author: 赵彦军 	Time: 2017-04-24 15:21 	Comment: 0 	View: 66 
+Title: Web API 之SelfHost与OwinSelfHots加载外部程序 
+Abstract: 下面就一些web api的一些基础内容进行阐述，然后就web api宿主承载中的实际业务问题进行解决 HttpController HttpController的激活是由处于消息处理管道尾端的HttpRoutingDispatcher来完成的，具体来说是HttpRoutingDispatcher利用 ...
+Author: 挑水的农 	Time: 2017-04-26 14:35 	Comment: 0 	View: 153 
