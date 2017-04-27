@@ -60,7 +60,8 @@ for i in range(len(time)):
         'title': title[i],
         'summary': summary[i],
         'author': name[i],
-        'comment': comment[i]
+        'comment': comment[i],
+        'time': time[i]
     })
 
 # write data to a file in JSON format
