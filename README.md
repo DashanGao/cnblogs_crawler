@@ -1,4 +1,6 @@
 # cnblogs crawler
+Author: Gao Dashan  
+Time: 2017/4/27   
 ## Abstract
 This project develops simple web crawlers which can crawl data about articles from "www.cnblogs.com" and store them in a JSON file. Four versions were implemented as following:
 
@@ -33,6 +35,7 @@ In this program the urllib library comes back. It directly get access to any pag
 ### V4 multithread crawler:   
 Based on V3, multithread is added to largly improve the profermance. The **"V4_data_MultiThread_crawled.json"** file contains data crawled from 200 pages, which is more than 3M.   
 Console output demo:  
+![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p1.png)
 ![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p3.png)
 
 JSON demo:  
