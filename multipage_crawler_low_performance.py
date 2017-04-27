@@ -44,6 +44,7 @@ def crwal(soup, page_index):
     for i in range(length):
         title[i] = titlelnk[i].string.strip()
         summary[i] = post_item_summary[i].contents[len(post_item_summary[i].contents) - 1].string.strip()
+
         time[i] = post_item_foot[i].contents[2].strip()
         name[i] = lightblue[i].string
         comment[i] = article_comment[i].a.string
@@ -54,7 +55,7 @@ def crwal(soup, page_index):
     num_re = re.compile(r'\d+')
 
     # text format regulation
-    for i in range(length):
+,    for i in range(length):
         time[i] = re.search(time_re, time[i]).group(0)
         comment[i] = re.search(num_re, comment[i]).group(0)
         view[i] = re.search(num_re, view[i]).group(0)
@@ -77,7 +78,8 @@ def crwal(soup, page_index):
             'title': title[i],
             'summary': summary[i],
             'author': name[i],
-            'comment': comment[i]
+            'comment': comment[i],
+            'time': time[i]
         })
     with open('cnblogs_data_from_CCTP.json', 'w') as outfile:
         json.dump(data, outfile)
