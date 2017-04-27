@@ -19,7 +19,7 @@ Each article data is organized in a form:
         'time': time[i]
     }
 ```
-Console output demo:  
+**Console output demo:**   
 ![console](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V1_p1.png)
 ### V2 multipage crawler 1:   
 In order to access the next page of the main page, I initially choose to simulate the **click behavior** by means of utilizing a webdriver from selenium. However, the display of the web page became a bottleneck. Though a webdriver without displaying the web page is available, I turn to another approach after I found appending the href attribute of the tab to the main page url can also work.  
@@ -31,10 +31,12 @@ In this program the urllib library comes back. It directly get access to any pag
     res = urllib.urlopen(target_url)
     soup = BeautifulSoup.BeautifulSoup(res)
     process_web_page(soup, page_index+1)
- ```
+ ```  
+ **Libraries** used: urllib, BeautifulSoup, re, json    
 ### V4 multithread crawler:   
 Based on V3, multithread is added to largely improve the performance. The **"V4_data_MultiThread_crawled.json"** file contains data crawled from 200 pages, which is more than 3M.   
-Console output demo:  
+**Libraries** used: urllib, BeautifulSoup, re, json, threading, multiprocessing, Queue, time    
+**Console output demo:**  
 ![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p1.png)
 ![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p3.png)
 
