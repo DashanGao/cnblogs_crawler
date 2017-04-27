@@ -68,7 +68,8 @@ def process_web_page(soup, page_index):
             'title': title[i],
             'summary': summary[i],
             'author': name[i],
-            'comment': comment[i]
+            'comment': comment[i],
+            'time': time[i]
         })
 
     # Write data to JSON
