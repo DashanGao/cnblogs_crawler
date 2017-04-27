@@ -12,7 +12,7 @@ import time
 # This is a multi thread crawler designed to crawl posts data from "www.cnblogs.com"
 # The number of pages to be crawled can be determined from 1 to 200.
 
-crawl_page_number = 200  # Number of pages to be crawled.
+crawl_page_number = 50  # Number of pages to be crawled. 1 <= crawl_page_number <= 200
 thread_number = cpu_count()*2  # Number of threads
 exit_flag = 0
 
