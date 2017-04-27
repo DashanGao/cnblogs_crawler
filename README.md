@@ -38,6 +38,6 @@ Console output demo:
 ![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p1.png)
 ![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p3.png)
 
-JSON demo:  
-Key formate: pageNumber_postNumber, eg: 121_14 : page 121, 15th post.  
+### JSON file demo:  
+Key formate: pageNumber_postNumber, eg: 121_14 means page 121, 15th post.  
 ![json](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p2.png)
