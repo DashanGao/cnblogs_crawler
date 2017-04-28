@@ -4,8 +4,9 @@ Time: 2017/4/27
 ## Abstract
 This project develops simple web crawlers which can crawl data about articles from "www.cnblogs.com" and store them in a JSON file. Four versions were implemented as following:
 
-### V1 single page crawler:    
-This crawler crawls data from the main page of "www.cnblogs.com" and write data to json file named 'blogs_data.json', it also print out data in console.  
+##  Implementation
+### V1 single page crawler:    
+This crawler crawls data from the main page of "www.cnblogs.com" and write data to json file named 'blogs_data.json', it also print out data in console.   
 **Libraries** used: urllib, BeautifulSoup, re, json    
 Each article has a number as its key in the json file.   
 Each article data is organized in a form:   
