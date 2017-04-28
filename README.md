@@ -40,12 +40,11 @@ Based on V3, multithread is added to largely improve the performance. The **"V4_
 ![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p1.png)
 ![V4](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p3.png)
 
-##Result
+##  Result
 **V4_data_Multithread_crawler.json** contains all **200 pages** of data crawled by V4_multithread_crawler.py  
-**V3_data_Multipage_crawler.json** contains 200 pages of data crawled by V3_multipage_crawler.py    
+**V3_data_Multipage_crawler.json** contains 20 pages of data crawled by V3_multipage_crawler.py    
 **V2_data_multipage_low_performance.json** contains 5 pages of data crawled by V2_multipage_crawler_low_performance.py   
 **V1_data_Single_page_crawler.json** contains data of the main page crawled by V1_single_page_crawler.py   
-
 ### JSON file demo:  
 Key format: pageNumber_postNumber, eg: 121_14 means page 121, 15th post.   
 ![json](https://github.com/GaoDashan1/cnblogs_crawler/blob/master/V4_p2.png)
